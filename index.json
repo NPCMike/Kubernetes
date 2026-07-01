@@ -1,0 +1,14 @@
+{
+  "title": "Hello Kubernetes",
+  "description": "First Killercoda Kubernetes scenario",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      { "title": "List pods", "text": "step1.md" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
