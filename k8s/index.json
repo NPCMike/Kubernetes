@@ -3,10 +3,10 @@
   "description": "First Killercoda Kubernetes scenario",
   "details": {
     "intro": { "text": "intro.md" },
-    "steps": [
-      { "title": "List pods", "text": "step1.md" }
+    "steps": [{}
+      
     ],
-    "finish": { "text": "finish.md" }
+    "finish": {  }
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-1node"
