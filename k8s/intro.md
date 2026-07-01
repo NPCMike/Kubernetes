@@ -1,5 +1,3 @@
-
-
 > A.K.A K8S 
 
 ## Background
