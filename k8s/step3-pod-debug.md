@@ -57,7 +57,7 @@ kubectl get events -A --sort-by=.lastTimestamp
 
 ## 排查決策樹
 
-![Pod 故障排查決策樹](assets/pod-debug-decision-tree.png)
+![Pod 故障排查決策樹](./assets/pod-debug-decision-tree.png)
 
 ## 思考一下
 

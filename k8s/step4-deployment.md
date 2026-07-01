@@ -67,7 +67,7 @@ Kubernetes 是控制迴圈，不是同步函式呼叫。它會持續觀察、比
 
 ## Deployment 校正流程
 
-![Deployment 校正流程](assets/deployment-reconciliation-loop.png)
+![Deployment 校正流程](./assets/deployment-reconciliation-loop.png)
 
 ## 思考一下
 
