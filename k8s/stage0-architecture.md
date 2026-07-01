@@ -46,7 +46,7 @@ Node
 
 ## 生圖提示詞
 
-預計檔名：`assets/k8s-architecture.png`
+預計檔名：`assets/architecture.png`
 
 ```text
 Create a clean professional Kubernetes architecture diagram for beginner SRE training. Show a user using kubectl connecting to the API Server. From API Server, show etcd as state storage, Scheduler as pod placement decision maker, and Controller Manager as reconciliation loop. Show two Nodes below, each with kubelet, container runtime, and Pods. Use a modern technical training style, clear labels, simple arrows, no dense text, high readability, 16:9 layout.
