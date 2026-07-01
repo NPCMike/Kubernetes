@@ -1,5 +1,5 @@
 {
-  "title": "Hello Kubernetes",
+  "title": "# 新手訓練：Kubernetes",
   "description": "First Killercoda Kubernetes scenario",
   "details": {
     "intro": { "text": "intro.md" },
