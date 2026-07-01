@@ -1,14 +1,33 @@
 {
-  "title": "# 新手訓練：Kubernetes",
-  "description": "First Killercoda Kubernetes scenario",
+  "title": "新手訓練：Kubernetes 闖關任務",
+  "description": "用闖關方式學會 Kubernetes 架構、Node 維運、Pod 排查與 Deployment。",
   "details": {
     "intro": { "text": "intro.md" },
-    "steps": [{}
-      
+    "steps": [
+      {
+        "title": "Stage 0：Kubernetes 架構短講",
+        "text": "stage0-architecture.md"
+      },
+      {
+        "title": "Stage 1：認識你的 Cluster",
+        "text": "step1-cluster.md"
+      },
+      {
+        "title": "Stage 2：Node 基本維運",
+        "text": "step2-node.md"
+      },
+      {
+        "title": "Stage 3：Pod 異常排查",
+        "text": "step3-pod-debug.md"
+      },
+      {
+        "title": "Stage 4：Deployment 修復與擴充",
+        "text": "step4-deployment.md"
+      }
     ],
     "finish": {  }
   },
   "backend": {
-    "imageid": "kubernetes-kubeadm-1node"
+    "imageid": "kubernetes-kubeadm-2nodes"
   }
 }

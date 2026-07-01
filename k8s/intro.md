@@ -4,7 +4,7 @@
 
 ## Background
 
-今天你們是新進的 SRE 工程師(Site Reliability Engineer（網站可靠性工程師)），
+今天你們是新進的 SRE 工程師（Site Reliability Engineer，網站可靠性工程師），
 公司系統壞了，你們要一關一關把它救回來。
 
 ## 主線 Scenario：拯救 NPC 直播平台
