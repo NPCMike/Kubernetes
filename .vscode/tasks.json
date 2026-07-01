@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git Add Commit Push",
+      "type": "process",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "git add .; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git commit -m '${input:commitMessage}'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git push"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "commitMessage",
+      "type": "promptString",
+      "description": "請輸入 commit message",
+      "default": "update"
+    }
+  ]
+}
