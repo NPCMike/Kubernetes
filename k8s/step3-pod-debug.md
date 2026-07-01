@@ -55,13 +55,9 @@ kubectl get events -A --sort-by=.lastTimestamp
 
 如果你只看 `STATUS`，你只知道「它壞了」。如果你看 `Events`，你會知道「它為什麼壞」。
 
-## 生圖提示詞
+## 排查決策樹
 
-預計檔名：`assets/pod-debug-decision-tree.png`
-
-```text
-Create a professional Kubernetes pod troubleshooting decision tree for beginner SRE training. Start with "kubectl get pods -A" then branch by Pod status: ImagePullBackOff, CrashLoopBackOff, Pending, Running but unhealthy. For each branch, show the next command: describe pod, logs, events, check image, check scheduling, check application logs. Use clear boxes and arrows, concise labels, modern technical diagram style, high readability, 16:9 layout.
-```
+![Pod 故障排查決策樹](assets/pod-debug-decision-tree.png)
 
 ## 思考一下
 

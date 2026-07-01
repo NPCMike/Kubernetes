@@ -65,13 +65,9 @@ kubectl get pods -o wide
 
 Kubernetes 是控制迴圈，不是同步函式呼叫。它會持續觀察、比對、修正。
 
-## 生圖提示詞
+## Deployment 校正流程
 
-預計檔名：`assets/deployment-reconciliation-loop.png`
-
-```text
-Create a clean professional diagram explaining Kubernetes Deployment reconciliation. Show Desired State: replicas=3 on the left, Current State: only 2 Pods after one Pod is deleted on the right, and a Controller loop in the center comparing desired state and current state, then creating a replacement Pod. Include Deployment, ReplicaSet, Pods, and Node labels. Use clear arrows, concise labels, modern SRE training style, high readability, 16:9 layout.
-```
+![Deployment 校正流程](assets/deployment-reconciliation-loop.png)
 
 ## 思考一下
 
