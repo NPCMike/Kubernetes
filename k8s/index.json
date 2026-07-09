@@ -1,6 +1,6 @@
 {
-  "title": "新手訓練：Kubernetes 闖關任務",
-  "description": "用闖關方式學會 Kubernetes 架構、Node 維運、Pod 排查與 Deployment。",
+  "title": "純新手訓練：Kubernetes 救援任務",
+  "description": "用 NPC 直播平台救援任務，從情境、圖解和 kubectl 線索學會 Kubernetes 入門排查。",
   "details": {
     "intro": { "text": "intro.md" },
     "steps": [
