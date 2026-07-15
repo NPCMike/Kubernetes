@@ -23,6 +23,22 @@
       {
         "title": "Stage 4：Deployment 修復與擴充",
         "text": "step4-deployment.md"
+      },
+      {
+        "title": "Stage 5：Namespace 現場分區",
+        "text": "step5-namespace.md"
+      },
+      {
+        "title": "Stage 6：Service 服務入口",
+        "text": "step6-service.md"
+      },
+      {
+        "title": "Stage 7：ConfigMap 設定管理",
+        "text": "step7-configmap.md"
+      },
+      {
+        "title": "Stage 8：Secret 敏感資訊",
+        "text": "step8-secret.md"
       }
     ],
     "finish": { "text": "finish.md" }
